@@ -4,8 +4,9 @@ import Head from 'next/head'
 import RocketseatLogo from '../assets/rocketseat.svg'
 
 import { Container } from '../styles/pages/Home'
+import { NextPage } from 'next'
 
-const Home: React.FC = () => {
+const Home: NextPage = () => {
   return (
     <Container>
       <Head>
