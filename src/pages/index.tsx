@@ -1,10 +1,10 @@
 import React from 'react'
 import Head from 'next/head'
+import { NextPage } from 'next'
 
 import RocketseatLogo from '../assets/rocketseat.svg'
 
 import { Container } from '../styles/pages/Home'
-import { NextPage } from 'next'
 
 const Home: NextPage = () => {
   return (
