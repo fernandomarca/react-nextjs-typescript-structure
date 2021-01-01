@@ -5,7 +5,6 @@ import { NextPage } from 'next'
 import RocketseatLogo from '../assets/rocketseat.svg'
 
 import { Container } from '../styles/pages/Home'
-
 const Home: NextPage = () => {
   return (
     <Container>
